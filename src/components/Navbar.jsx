@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './Navbar.css';
 import logo from '../images/logo.svg';
+import hamburger from '../images/icon-hamburger.svg';
+import close from '../images/icon-close.svg';
 
 const Navbar = () => {
 	const [click, setClick] = useState(false);
@@ -15,28 +17,42 @@ const Navbar = () => {
 
 				{/* mobile menu icon */}
 				<div className='menu-icon' onClick={handleClick}>
-					<i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
+					{click ? (
+						<img src={close} alt='close icon' />
+					) : (
+						<img src={hamburger} alt='hamburger icon' />
+					)}
 				</div>
 
 				<ul className={click ? 'nav-menu active' : 'nav-menu'}>
-					<li>
-						<a href='/'>Home</a>
+					<li className='menu-item'>
+						<a href='/' className='nav-link'>
+							Home
+						</a>
 					</li>
-					<li>
-						<a href='/'>About</a>
+					<li className='menu-item'>
+						<a href='/' className='nav-link'>
+							About
+						</a>
 					</li>
-					<li>
-						<a href='/'>Contact</a>
+					<li className='menu-item'>
+						<a href='/' className='nav-link'>
+							Contact
+						</a>
 					</li>
-					<li>
-						<a href='/'>Blog</a>
+					<li className='menu-item'>
+						<a href='/' className='nav-link'>
+							Blog
+						</a>
 					</li>
-					<li>
-						<a href='/'>Careers</a>
+					<li className='menu-item'>
+						<a href='/' className='nav-link'>
+							Careers
+						</a>
 					</li>
 				</ul>
 				<a href='/' className='btn cta'>
-					SignUp
+					Request Invite
 				</a>
 			</div>
 		</nav>
