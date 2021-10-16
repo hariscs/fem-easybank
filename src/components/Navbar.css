@@ -29,6 +29,10 @@
 	transition: all 0.5s ease;
 }
 
+.menu-icon {
+	cursor: pointer;
+}
+
 .nav-menu.active {
 	background: #fff;
 	left: 50px;
