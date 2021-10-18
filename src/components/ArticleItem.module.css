@@ -15,21 +15,24 @@
 }
 
 .article__author {
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 
 .article__title {
 	font-weight: 500;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	color: hsl(233, 26%, 24%);
 	margin: 0.5em auto 0;
 	line-height: 1.2;
 }
 
 .article__subtitle {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	max-width: 34ch;
 }
 
 @media (min-width: 960px) {
+	.article__subtitle {
+		font-size: 0.8rem;
+	}
 }
