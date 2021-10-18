@@ -31,3 +31,7 @@ li {
 	margin: 0;
 	list-style: none;
 }
+
+section {
+	padding: 4em 0;
+}

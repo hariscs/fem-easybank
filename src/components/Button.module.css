@@ -1,0 +1,10 @@
+.btn {
+	background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+	color: #fff;
+	padding: 1em 3em;
+	border: 0;
+	font-weight: 700;
+	font-family: inherit;
+	border-radius: 20px;
+	cursor: pointer;
+}
