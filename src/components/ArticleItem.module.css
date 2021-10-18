@@ -1,0 +1,19 @@
+.article__item {
+	border-radius: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.article__text {
+	padding: 2em;
+}
+
+.article__author,
+.article__subtitle {
+	color: hsl(233, 8%, 62%);
+}
+
+.article__author {
+	display: block;
+	margin-top: 0;
+}

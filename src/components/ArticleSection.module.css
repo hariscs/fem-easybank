@@ -1,5 +1,15 @@
+.articles {
+	background: hsl(0, 0%, 98%);
+}
+
 .articles__container {
 	width: 90%;
 	max-width: 1440px;
 	margin: 0 auto;
+}
+
+.articles__list {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
 }
