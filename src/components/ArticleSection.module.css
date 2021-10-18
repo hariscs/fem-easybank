@@ -6,10 +6,29 @@
 	width: 90%;
 	max-width: 1440px;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.articles__title {
+	font-size: 2.1rem;
+	font-weight: 500;
+	color: hsl(233, 26%, 24%);
 }
 
 .articles__list {
 	display: flex;
 	flex-direction: column;
 	gap: 2em;
+}
+
+@media (min-width: 960px) {
+	.articles__list {
+		flex-direction: row;
+	}
+
+	.articles__container {
+		align-items: flex-start;
+	}
 }

@@ -1,11 +1,12 @@
 .article__item {
-	border-radius: 10px;
+	border-radius: 8px;
 	background: #fff;
 	overflow: hidden;
+	max-width: 400px;
 }
 
 .article__text {
-	padding: 2em;
+	padding: 1.2em 1.5em;
 }
 
 .article__author,
@@ -14,6 +15,21 @@
 }
 
 .article__author {
-	display: block;
-	margin-top: 0;
+	font-size: 0.7rem;
+}
+
+.article__title {
+	font-weight: 500;
+	font-size: 1.1rem;
+	color: hsl(233, 26%, 24%);
+	margin: 0.5em auto 0;
+	line-height: 1.2;
+}
+
+.article__subtitle {
+	font-size: 0.8rem;
+	max-width: 34ch;
+}
+
+@media (min-width: 960px) {
 }
