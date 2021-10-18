@@ -1,3 +1,41 @@
 .bankingSection {
 	background: hsl(220, 16%, 96%);
+	text-align: center;
+}
+
+.bankingContainer {
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+}
+
+.bankingSection__title {
+	color: hsl(233, 26%, 24%);
+	font-weight: 500;
+}
+
+.bankingSection__subtitle {
+	color: hsl(233, 8%, 62%);
+}
+
+@media (min-width: 960px) {
+	.bankingSection {
+		text-align: left;
+	}
+
+	.bankingSection__title {
+		font-size: 2rem;
+	}
+
+	.bankingSection__subtitle {
+		max-width: 63ch;
+	}
+
+	.bankingSection__list {
+		display: flex;
+		gap: 2em;
+	}
 }

@@ -1,2 +1,28 @@
 .card__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.card__itemTitle {
+	font-weight: 500;
+	color: hsl(233, 26%, 24%);
+}
+
+.card__itemSubtitle {
+	color: hsl(233, 8%, 62%);
+	max-width: 40ch;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 960px) {
+	.card__item {
+		align-items: flex-start;
+	}
+	.card__itemSubtitle {
+		font-size: 1rem;
+		max-width: 27ch;
+	}
 }
