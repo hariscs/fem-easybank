@@ -3,6 +3,7 @@
 	background: #fff;
 	overflow: hidden;
 	max-width: 400px;
+	cursor: pointer;
 }
 
 .article__text {

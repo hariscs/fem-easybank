@@ -25,6 +25,11 @@ a {
 	text-decoration: none;
 }
 
+a,
+p {
+	font-weight: 300;
+}
+
 ul,
 li {
 	padding: 0;
