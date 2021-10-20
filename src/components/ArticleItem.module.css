@@ -3,7 +3,6 @@
 	background: #fff;
 	overflow: hidden;
 	max-width: 400px;
-	cursor: pointer;
 }
 
 .article__text {
@@ -25,6 +24,12 @@
 	color: hsl(233, 26%, 24%);
 	margin: 0.5em auto 0;
 	line-height: 1.2;
+}
+
+.article__title:hover,
+.article__title:focus {
+	color: hsl(136, 65%, 51%);
+	cursor: pointer;
 }
 
 .article__subtitle {
