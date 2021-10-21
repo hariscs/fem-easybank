@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](src\images\fem-easybanking-mobile.png)
+![](./src/images/fem-easybanking-mobile.png)
 
 ### Links
 
