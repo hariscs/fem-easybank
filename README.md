@@ -20,12 +20,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/images/fem-easybanking-mobile.png)
 ![](./src/images/fem-eaasybank-desktop.png)
+![](./src/images/fem-easybanking-mobile.png)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/easybank-landing-page-built-with-react-and-css-modules-z0krHvder)
 - Live Site URL: [Easybank](https://fem-easybanking.netlify.app/)
 
 ### Built with
