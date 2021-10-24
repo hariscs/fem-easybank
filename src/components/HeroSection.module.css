@@ -55,10 +55,12 @@
 
 	.hero__container {
 		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
 	}
 
 	.hero__intro {
-		width: 50%;
 		text-align: left;
 		align-items: flex-start;
 	}
@@ -75,6 +77,5 @@
 
 	.hero__img {
 		order: 0;
-		width: 50%;
 	}
 }
